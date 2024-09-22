@@ -1,0 +1,126 @@
+/* 高端奢华品牌风格 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;  /* 黑色背景 */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.brand-header {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    border-bottom: 2px solid #444;
+}
+
+.brand-header .logo h1 {
+    font-family: 'Georgia', serif;
+    color: #d4af37; /* 金色字体 */
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.brand-header .logo p {
+    color: #aaa;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.chat-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.chat-box {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    overflow-y: auto;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.chat-box p {
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.chat-box .user-message {
+    background-color: #444;
+    text-align: right;
+    color: #fff;
+    margin-left: auto;
+}
+
+.chat-box .bot-message {
+    background-color: #333;
+    color: #d4af37; /* 金色字体，符合奢侈品品牌的调性 */
+    text-align: left;
+    margin-right: auto;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+#send-btn {
+    background-color: #d4af37;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: #111;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#send-btn i {
+    font-size: 20px;
+}
+
+#send-btn:hover {
+    background-color: #f0c674;
+}
